@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+@layer base {
+    html {
+      font-family: "Montserrat", system-ui, sans-serif;
+    }
+  }
+
+*{
+    color: black;
+}
+hr,
+header,
+footer {
+    background-color: #303440;
+}
+hr
+ {
+    border-color: #303440;
+width: 10rem;
+text-align: center;
+margin: auto;
+height: 0.2rem;
+}
+html {
+    background-color: #dcdcdc;
+}
+
+.btn{
+    background-color: #b4100f;
+}
+.hero-pattern{
+    background-image: url('../img/home_media_slider.jpg');
+    max-height: 150vh;
+}
+#myTopnav a,
+#menu a{
+    color: white;
+}
+#chisiamo{
+    background-color: white;
+}
+.no-line{
+    background: none ;
+color: transparent;
+margin: 0 auto 20px auto;
+border-color: transparent;
+}
+#myTopnav{
+    margin: auto;
+}
