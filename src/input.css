@@ -32,9 +32,10 @@ html {
 .btn{
     background-color: #b4100f;
 }
+
 .hero-pattern{
     background-image: url('../img/home_media_slider.jpg');
-    max-height: 150vh;
+   
 }
 #myTopnav a,
 #menu a{
